@@ -63,7 +63,7 @@ useHead({
     opacity: 0.5;
     width: 400px;
     aspect-ratio: 1/1;
-    animation: animate 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite alternate forwards;
+    animation: animate 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite alternate forwards;
     filter: blur(40px);
     z-index: -1;
     background: linear-gradient(47deg,
