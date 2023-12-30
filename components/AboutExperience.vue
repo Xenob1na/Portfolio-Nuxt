@@ -6,7 +6,7 @@
                 <p class="text-black text-[18px] font-normal leading-normal">Самое интересное</p>
             </div>
             <div class="mt-[15px] max-w-[650px] z-10">
-                <h1 class="text-black text-[70px] font-normal leading-[110%]">Опыт</h1>
+                <h1 class="text-black text-[70px] lg:text-[60px] xs:text-[45px] font-normal leading-[110%]">Опыт</h1>
             </div>
         </div>
         <div class="mt-8">

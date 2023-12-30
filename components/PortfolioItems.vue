@@ -1,10 +1,10 @@
 <template>
     <div
-        class="mt-4 p-6 shadow-inset-white dark:shadow-none rounded-3xl flex flex-col md:flex-row items-center">
+        class="mt-4 p-6 rounded-3xl flex gap-7 lg:flex-col items-center">
         <img :src="portfolio.src" :alt="portfolio.alt"
-            class="aspect-video md:w-3/5 object-cover w-full h-auto rounded-2xl">
-        <div class="mt-4 md:mt-0 md:w-2/5 ml-12 w-full">
-            <h4 class="text-2xl text-black font-bold  mb-2 md:mb-4">{{ portfolio.title }}</h4>
+            class="aspect-video  object-cover w-full h-auto rounded-2xl">
+        <div class="mt-4 w-full">
+            <h4 class="text-2xl text-black font-bold  mb-2">{{ portfolio.title }}</h4>
             <p class="mb-4 text-black text-[18px] font-normal">{{ portfolio.description }}</p>
             <p class="mb-4"><i>{{ portfolio.PS }}</i></p>
             <p class="mb-4 text-black text-[18px] font-normal">Back-end: {{ portfolio.Backend }}</p>

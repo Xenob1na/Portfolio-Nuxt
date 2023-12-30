@@ -1,5 +1,5 @@
 <template>
-    <div id="Modal" class="fixed z-50 bottom-0 bg-[#232323] h-screen w-full">
+    <div id="Modal" class="fixed z-[1000] bottom-0 bg-[#232323] h-screen w-full xl:px-6">
         <div class="w-full mx-auto max-w-[1440px] p-2">
             <div class="flex justify-end mt-[52px]">
                 <div>
@@ -10,13 +10,13 @@
                 </div>
             </div>
 
-            <div class="flex justify-between mt-[160px]">
+            <div class="flex justify-between mt-[160px] sm:mt-[100px] md:flex-col">
                 <div class="flex flex-col">
-                    <nuxt-link @click="isCloseOverlay = false" to="/" class="text-[#F9FAFB] text-[100px] font-medium leading-[83px]">Главная</nuxt-link>
-                    <nuxt-link @click="isCloseOverlay = false" to="/about" class="text-[#F9FAFB] text-[100px] font-medium leading-[83px] mt-[60px]">Обо мне</nuxt-link>
-                    <nuxt-link @click="isCloseOverlay = false" to="/portfolio" class="text-[#F9FAFB] text-[100px] font-medium leading-[83px] mt-[60px]">Портфолио</nuxt-link>
+                    <nuxt-link @click="isCloseOverlay = false" to="/" class="text-[#F9FAFB] text-[100px] sm:text-[80px] xs:text-[60px] font-medium leading-[83px]">Главная</nuxt-link>
+                    <nuxt-link @click="isCloseOverlay = false" to="/about" class="text-[#F9FAFB] text-[100px] sm:text-[80px] xs:text-[60px] font-medium leading-[83px] mt-[60px] xs:mt-8">Обо мне</nuxt-link>
+                    <nuxt-link @click="isCloseOverlay = false" to="/portfolio" class="text-[#F9FAFB] text-[100px] sm:text-[80px] xs:text-[60px] font-medium leading-[83px] mt-[60px] xs:mt-8">Портфолио</nuxt-link>
                 </div>
-                <div>
+                <div class="md:mt-[50px]">
                     <h2 class="text-[#F9FAFB] text-[24px] font-semibold leading-normal">Мои контакты</h2>
                     <div class="flex flex-col gap-4 mt-6">
                         <nuxt-link to="https://github.com/Xenob1na">

@@ -1,13 +1,13 @@
 <template>
     <MainLayout>
         <div id="Portfolio" class="max-w-[1440px] mx-auto">
-            <div class="mt-[150px]">
+            <div class="mt-[150px] px-6">
                 <div class="flex items-center gap-4 z-10">
                     <div class="border-b-[2px] border-b-gray-700 my-1 w-[37px]" />
                     <p class="text-black text-[18px] font-normal leading-normal">Устраивайтесь поудобнее</p>
                 </div>
                 <div class="mt-[15px] max-w-[650px] z-10">
-                    <h1 class="text-black text-[70px] font-normal leading-[110%]">Мои проекты</h1>
+                    <h1 class="text-black text-[70px] lg:text-[60px] xs:text-[45px] font-normal leading-[110%]">Мои проекты</h1>
                 </div>
             </div>
             <PortfolioItems v-for="portfolios in portfolio" :key="portfolios.id" :portfolio="portfolios" />

@@ -1,22 +1,22 @@
 <template>
     <MainLayout>
         <section id="Home">
-            <div class="max-w-[1440px] mx-auto">
+            <div class="max-w-[1440px] mx-auto xl:mx-6">
                 <div>
                     <div class="z-0 fixed top-10 transform left-1/2 -translate-x-1/2">
-                        <div class="blur-blob transition bottom-1/5 right-1/20">
+                        <div class="blur-blob transition">
                         </div>
                     </div>
-                    <div class="blur-blob"></div>
+                    <div class="blur-blob sm:hidden"></div>
                 </div>
-                <div class="flex justify-between mt-[180px]">
+                <div class="flex justify-between mt-[180px] lg:flex lg:flex-col">
                     <div>
                         <div class="flex items-center gap-4 z-10">
                             <div class="border-b-[2px] border-b-gray-700 my-1 w-[37px]" />
                             <p class="text-black text-[18px] font-normal leading-normal">Привет, я Данил Громов</p>
                         </div>
                         <div class="mt-[15px] max-w-[613px] z-10">
-                            <h1 class="text-black text-[100px] font-normal leading-[110%]">Добро пожаловать</h1>
+                            <h1 class="text-black text-[100px] font-normal sm:text-[80px] xs:text-[60px] leading-[110%]">Добро пожаловать</h1>
                         </div>
                         <div class="flex items-center gap-4 mt-[15px]">
                             <div class="border-b-[2px] border-b-gray-700 my-1 w-[37px]" />
@@ -28,15 +28,15 @@
                             </nuxt-link>
                         </div>
                     </div>
-                    <div class="max-w-[486px] z-10">
+                    <div class="max-w-[486px] z-10 lg:mt-8 lg:max-w-[613px]">
                         <div class="border-b-[2px] border-b-gray-700 my-1 w-[37px]" />
-                        <article class="text-black text-[24px] font-normal leading-normal">
+                        <article class="text-black text-[24px] xs:text-[18px] font-normal leading-normal">
                             Я занимаюсь версткой и разработкой клиентской части продуктов, имею опыт работы с компаниями в
                             разных направлениях. Тем самым помогу вам в реализации ваших проектов.
                         </article>
                     </div>
                 </div>
-                <div class="flex justify-end">
+                <div class="flex justify-end lg:mt-6">
                     <span class="animate-bounce">
                         <img src="/s.png" alt="circle" />
                     </span>
@@ -65,7 +65,7 @@ useHead({
     aspect-ratio: 1/1;
     animation: animate 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite alternate forwards;
     filter: blur(40px);
-    z-index: -1;
+    z-index: 1;
     background: linear-gradient(47deg,
             rgba(255, 88, 139, 1) 21%,
             rgb(0 164 173) 67%,

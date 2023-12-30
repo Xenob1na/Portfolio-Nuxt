@@ -1,12 +1,12 @@
 <template>
     <section id="layout-main" class="mt-10">
-        <header class="max-w-[1440px] mx-auto  flex justify-between items-center mb-10">
+        <header class="max-w-[1440px] mx-auto flex justify-between items-center mb-10 xl:mx-6">
             <nuxt-link to="/">
                 <div>
                     <p class="text-black text-[30px] font-semibold leading-[82.336%]">DG.</p>
                 </div>
             </nuxt-link>
-            <div>
+            <div class="z-[100]">
                 <button class="flex items-center gap-4" @click="isCloseOverlay = true">
                     <p class="text-black text-[24px] font-normal leading-[82.336%]">Меню</p>
                     <span>
