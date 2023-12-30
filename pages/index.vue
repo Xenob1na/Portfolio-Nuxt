@@ -53,7 +53,8 @@ useHead({
     title: "Главная",
     meta: [
         { name: "description", content: "Главная" },
-    ]
+    ],
+    link: [{ rel: 'icon', type: 'image/png', href: '/favicon.ico' }]
 })
 </script>
 

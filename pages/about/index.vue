@@ -31,6 +31,7 @@ useHead({
     title: "Обо мне",
     meta: [
         { name: "description", content: "Обо мне" },
-    ]
+    ],
+    link: [{ rel: 'icon', type: 'image/png', href: '/favicon.ico' }]
 })
 </script>

@@ -22,7 +22,8 @@ useHead({
     title: "Портфолио",
     meta: [
         { name: "description", content: "Портфолио" },
-    ]
+    ],
+    link: [{ rel: 'icon', type: 'image/png', href: '/favicon.ico' }]
 })
 
 const portfolio = ref([])
