@@ -9,7 +9,7 @@
                     </div>
                     <div class="blur-blob sm:hidden"></div>
                 </div>
-                <div class="flex justify-between mt-[180px] lg:flex lg:flex-col">
+                <div class="flex justify-between mt-[180px] lg:flex lg:flex-col z-[-1000]">
                     <div>
                         <div class="flex items-center gap-4 z-10">
                             <div class="border-b-[2px] border-b-gray-700 my-1 w-[37px]" />

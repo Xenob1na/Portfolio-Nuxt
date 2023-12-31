@@ -62,6 +62,16 @@ onBeforeMount(() => {
         },
         {
             id: 4,
+            title: "CribMD",
+            description: "CribMD - Landing page, для больницы",
+            src: "/CribMD.png",
+            alt: "CribMD",
+            Backend: "Не писался",
+            Frontend: "VueJS, TailwindCSS",
+            link: 'https://xenob1na.github.io/Vue-CribMD/'
+        },
+        {
+            id: 5,
             title: "Магнум",
             description: "Магнум - компания занимающаяся транспортными перевозками по направлению ХМАО и ЯНАО.",
             src: "/magnum.png",
@@ -72,7 +82,7 @@ onBeforeMount(() => {
             link: 'https://xenob1na.github.io/Vue-Magnum/'
         },
         {
-            id: 5,
+            id: 6,
             title: "Todo List",
             description: "Todo List - приложение для заметок. Имеет возможность создания, удаления заметок. Также смена цветовой темы",
             src: "/todo.png",
@@ -82,7 +92,7 @@ onBeforeMount(() => {
             link: 'https://xenob1na.github.io/Vue-ToDO/'
         },
         {
-            id: 6,
+            id: 7,
             title: "Notes App",
             description: "Notes App - приложение для заметок. Имеет возможность создания, редактирования, удаления заметок. Также реализована возможность поиска заметок. Приложение реализовано на VueJS",
             src: "/NotesApp.png",
@@ -92,7 +102,7 @@ onBeforeMount(() => {
             link: 'https://xenob1na.github.io/Notes-App/'
         },
         {
-            id: 7,
+            id: 8,
             title: "Worku",
             description: "Worku - пет проект, ознакомление с GulpJS",
             src: "/worko.png",
