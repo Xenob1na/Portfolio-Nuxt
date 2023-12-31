@@ -2,7 +2,7 @@
     <div
         class="mt-4 p-6 rounded-3xl flex gap-7 lg:flex-col items-center">
         <img :src="portfolio.src" :alt="portfolio.alt"
-            class="aspect-video  object-cover w-full h-auto rounded-2xl">
+            class="aspect-video  object-cover w-[60%] lg:w-full h-auto rounded-2xl">
         <div class="mt-4 w-full">
             <h4 class="text-2xl text-black font-bold  mb-2">{{ portfolio.title }}</h4>
             <p class="mb-4 text-black text-[18px] font-normal">{{ portfolio.description }}</p>
