@@ -48,7 +48,7 @@ onBeforeMount(() => {
             alt: "crud",
             Backend: "TS, Mysql",
             Frontend: "NuxtJS(VueJS), TS, TailwindCSS",
-            link: 'https://github.com/Xenob1na/Nuxt-Mysql-CRUD'
+            link: 'https://nuxt-mysql-crud.vercel.app/'
         },
         {
             id: 3,
